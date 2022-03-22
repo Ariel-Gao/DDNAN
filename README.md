@@ -21,11 +21,11 @@ This is our PyTorch implementation for the paper DDNAN. (Current implementation 
   
   ```shell
   ##### For training and test:
-  python run.py -epoch 1500 -name InteractE_FB15k_K3_D200_club_b_mi_drop -mi_train -mi_drop
+  python run.py -epoch 1500 -name ConvE_FB15k-237_M20_K4_D200
   ```
 
 ## Acknowledgement
 
-The project is built upon [COMPGCN](https://github.com/malllabiisc/CompGCN)
+The project is built upon [ADGCN](https://github.com/SsGood/ADGCN)
 
 Please create an issue or send an email to contact use.
