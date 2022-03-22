@@ -202,10 +202,10 @@ class Runner(object):
         model_name = '{}_{}'.format(model, score_func)
 
         
-        if model_name.lower() == 'disenkgat_conve':
-            model = DisenKGAT_ConvE(self.edge_index, self.edge_type, params=self.p)
-        elif model_name.lower() == 'disenkgat_interacte':
-            model = DisenKGAT_InteractE(self.edge_index, self.edge_type, params=self.p)
+        if model_name.lower() == 'ddnan_conve':
+            model = DDNAN_ConvE(self.edge_index, self.edge_type, params=self.p)
+        elif model_name.lower() == 'ddnan_interacte':
+            model = DDNAN_InteractE(self.edge_index, self.edge_type, params=self.p)
         else:
             raise NotImplementedError
 
