@@ -201,11 +201,8 @@ class Runner(object):
         """
         model_name = '{}_{}'.format(model, score_func)
 
-        if model_name.lower() == 'disenkgat_transe':
-            model = DisenKGAT_TransE(self.edge_index, self.edge_type, params=self.p)
-        elif model_name.lower() == 'disenkgat_distmult':
-            model = DisenKGAT_DistMult(self.edge_index, self.edge_type, params=self.p)
-        elif model_name.lower() == 'disenkgat_conve':
+        
+        if model_name.lower() == 'disenkgat_conve':
             model = DisenKGAT_ConvE(self.edge_index, self.edge_type, params=self.p)
         elif model_name.lower() == 'disenkgat_interacte':
             model = DisenKGAT_InteractE(self.edge_index, self.edge_type, params=self.p)
