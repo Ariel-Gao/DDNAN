@@ -26,6 +26,6 @@ This is our PyTorch implementation for the paper DDNAN. (Current implementation 
 
 ## Acknowledgement
 
-The project is built upon [ADGCN](https://github.com/SsGood/ADGCN)
+The project is built upon [DisenGCN](https://github.com/JianxinMa/jianxinma.github.io/tree/master/assets)
 
 Please create an issue or send an email to contact use.
